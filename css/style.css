@@ -30,7 +30,6 @@ main{
     background-color: #3370E7;
 }
 
-
 /* HEADER */
 .header-container{
     width: 100%;
@@ -44,17 +43,44 @@ main{
     color: #FD900C;
 }
 
+
 /* RESPONSIVE */
 @media screen and (min-width: 768px){
 
 }
 
 @media screen and (min-width: 992px){
+    /* HEADER */
     .big-logo{
         width: 150px;
     }
 
     .icons-header{
         color: grey;
+    }
+
+    /* SIDEBAR */
+    .sidebar{
+        width: 120px;
+    }
+
+    .main-content{
+        width: calc(100vw - 120px);
+    }
+
+    #simple{
+        margin-left: 2px;
+    }
+
+    #home{
+        margin-left: 13px;
+    }
+
+    #stats{
+        margin-left: 15px;
+    }
+
+    #signals{
+        margin-left: 11px;
     }
 }
