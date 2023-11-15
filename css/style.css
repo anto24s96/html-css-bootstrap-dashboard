@@ -43,6 +43,9 @@ main{
     color: #FD900C;
 }
 
+.bg-search{
+    background-color: #E4E4E4;
+}
 
 /* RESPONSIVE */
 @media screen and (min-width: 768px){
