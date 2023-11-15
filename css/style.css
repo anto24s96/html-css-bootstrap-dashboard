@@ -27,7 +27,7 @@ main{
 }
 
 .navbar-content{
-    height: 100px;
+/*     height: 100px; */
     background-color: #3370E7;
 }
 
@@ -46,6 +46,15 @@ main{
 
 .bg-search{
     background-color: #E4E4E4;
+}
+
+/* NAVBAR */
+.bg-pill{
+    background-color: #2A5BB9;
+}
+
+.fa-angles-right{
+    padding-top: 5px;
 }
 
 /* MAIN-CONTENT */

@@ -25,11 +25,11 @@
                 <span class="input-group-text border-end-0 bg-search" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input type="text" class="form-control border-start-0 bg-search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
             </div>
-            <div class="icons-header d-flex">
+            <div class="icons-header d-flex align-items-center">
                 <i class="fa-solid fa-list mx-2 d-none d-lg-block"></i>
                 <i class="fa-solid fa-circle-info mx-2 d-none d-lg-block"></i>
                 <i class="fa-solid fa-ellipsis-vertical mx-2 d-none d-lg-block"></i>
-                <i class="fa-solid fa-bell mx-2" id="bell"></i>
+                <a href="#" class="d-inline-block"><i class="fa-solid fa-bell mx-2" id="bell"></i></a>
             </div>
         </div>
     </header>
@@ -71,7 +71,62 @@
         
         <!-- MAIN_CONTENT -->
         <div class="main-content">
-            <div class="navbar-content"></div>
+            <div class="navbar-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="navbar-left pt-3">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <span class="text-white fs-2">Boolean</span>
+                                        <span class="badge rounded-pill bg-pill">Piano blaze</span>
+
+                                    </li>
+                                </ul>
+
+                                <ul class="list-unstyled d-flex flex-wrap">
+                                    <li class="me-2">
+                                     <span class="badge rounded-pill bg-pill">3 app</span>
+                                    </li>
+                                    <li class="me-2">
+                                        <i class="fa-solid fa-angles-right text-white"></i>
+                                    </li>
+                                    <li class="me-2 d-block d-lg-none">
+                                        <span class="badge rounded-pill bg-pill"><i class="fa-solid fa-plus"></i></span>
+                                    </li>
+                                    <li class="me-2 d-none d-lg-block">
+                                        <span class="badge rounded-pill bg-pill">Boolean mobile app</span>
+                                    </li>
+                                    <li class="me-2 d-none d-lg-block">
+                                        <span class="badge rounded-pill bg-pill">Boolean web app</span>
+                                    </li>
+                                    <li class="me-2 d-none d-lg-block">
+                                        <span class="badge rounded-pill bg-pill">Boolean blog app</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-3 pb-4">
+                            <div class="navbar-middle pt-2">
+                                <p class="text-white mb-0 mt-2">Studenti online negli ultimi 30 minuti</p>
+                                <div class="fs-3 text-white">125</div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-3 order-first order-md-last">
+                            <div class="navbar-right d-flex justify-content-start justify-content-md-center pt-3">
+                                <ul class="list-unstyled text-white">
+                                    <li class="d-flex align-items-center">
+                                        <span class="me-3">Nuovo Studente</span>
+                                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             <div class="tabs-content">
                 <div class="container-fluid">
