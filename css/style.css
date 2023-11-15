@@ -23,6 +23,7 @@ main{
 .main-content{
     width: calc(100vw - 70px);
     height: 100%;
+    overflow-y: auto;
 }
 
 .navbar-content{
@@ -45,6 +46,16 @@ main{
 
 .bg-search{
     background-color: #E4E4E4;
+}
+
+/* MAIN-CONTENT */
+.class-avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-image: url(../img/class-avatar.jpg);
+    background-size: cover;
 }
 
 /* RESPONSIVE */
@@ -86,4 +97,7 @@ main{
     #signals{
         margin-left: 11px;
     }
+
+    /* MAIN_CONTENT */
+
 }
