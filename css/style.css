@@ -18,6 +18,7 @@ main{
     width: 70px;
     height: 100%;
     background-color: #15273B;
+    background-image: url(/img/sidebar-bg.png);
 }
 
 .main-content{
@@ -27,7 +28,6 @@ main{
 }
 
 .navbar-content{
-/*     height: 100px; */
     background-color: #3370E7;
 }
 
@@ -55,6 +55,22 @@ main{
 
 .fa-angles-right{
     padding-top: 5px;
+}
+
+.button-add:hover{
+    background-color: white;
+}
+
+.button-add:hover i{
+    color: #165bba;
+}
+
+
+/* SIDEBAR */
+.sidebar-top ul li:hover, .sidebar-bot ul li:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 0;
 }
 
 /* MAIN-CONTENT */
